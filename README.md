@@ -21,13 +21,14 @@ Is required for correctly work, include the models created in your respective co
 ##How to use
 
 * Set constants in index file
-    
+    ```php
+    // the url app
     define('BASEURL', 'http://tusubdominio.dominio.com/');
+    // the title
 	define('CLIENTE', 'Title App');
+    // the domain
 	define('ABSOLUTEURL', 'http://tudominio.com/');
-	define('LOGO', 'urllogo.jpg'); // not necesary
-	define('ENVIRONMENT', 'development');
-	define('TITULO_LOGIN', 'Login Title');
+    ```
 
 * Set database config files in /aplication/config/
     ```php
