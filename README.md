@@ -41,7 +41,10 @@ Is required for correctly work, include the models created in your respective co
     // database
     $db['default']['database'] = '';    
     ```
-* run the aplication
+* Run the aplication
+
+
+_More info in https://codeigniter.com_
 
 
 
